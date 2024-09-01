@@ -167,3 +167,32 @@ aside.active #toggle-aside:hover {
 /* aside p, article {
     font-family: sans-serif;
 } */
+
+#tet-colors ul li:first-of-type p:nth-of-type(2) {
+    color: #EA3D1E;
+    font-weight: bold;
+}
+#tet-colors ul li:nth-of-type(2) p:nth-of-type(2) {
+    color: #F69230;
+    font-weight: bold;
+}
+#tet-colors ul li:nth-of-type(3) p:nth-of-type(2) {
+    color: #FEF94C;
+    font-weight: bold;
+}
+#tet-colors ul li:nth-of-type(4) p:nth-of-type(2) {
+    color: #79AF3D;
+    font-weight: bold;
+}
+#tet-colors ul li:nth-of-type(5) p:nth-of-type(2) {
+    color: #51E2FC;
+    font-weight: bold;
+}
+#tet-colors ul li:nth-of-type(6) p:nth-of-type(2) {
+    color: #953693;
+    font-weight: bold;
+}
+#tet-colors ul li:last-of-type p:nth-of-type(2) {
+    color: #F16EB9;
+    font-weight: bold;
+}
