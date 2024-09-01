@@ -1,7 +1,3 @@
-#piece-o div.tet-group:nth-of-type() {
-    order: -3;
-}
-
 #piece-o div.tet-group:nth-of-type(5) {
     order: -1;
 }
@@ -12,4 +8,13 @@
 
 #piece-o div.tet-group div.tet-piece:nth-child(2){
     order: 2;
+}
+#piece-i div.tet-group:nth-of-type(2) div.inner-block:nth-of-type(4) {
+    order: -1;
+}
+#piece-i div.tet-group:nth-of-type(3) div.inner-block:nth-of-type(3) {
+    order: -1;
+}
+#piece-i div.tet-group:nth-of-type(4) div.inner-block:nth-of-type(2) {
+    order: -1;
 }
