@@ -55,6 +55,10 @@ main {
 .task-box p {
     flex-basis: 75%;
 }
+/*.task-box p :not(p) {
+    margin: 0px;
+}
+    This is my fix for the Deep Learning Debug, but I didn't want to change the demo-code officially*/
 
 .task-box:last-child {
     display: flex;
