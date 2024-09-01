@@ -9,7 +9,6 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    font-family: 'Work Sans', sans-serif;
 }
 
 main {
@@ -53,6 +52,7 @@ header a {
     text-wrap: nowrap;
     letter-spacing: 0.05em;
     /* rem versus pixel */
+    font-family: 'Work Sans', sans-serif;
 }
 
 .active-nav {
@@ -87,6 +87,9 @@ main {
     display: block;
 }
 
+h1 {
+    font-family: 'Work Sans', sans-serif;
+}
 
 /* #pieces-grid {
     display: flex;
@@ -125,11 +128,14 @@ aside {
     padding: 3rem 1rem;
     z-index: 1000; /* Ensures it stays above other content */
     color: white;
-    font-family: "Work Sans", sans-serif;
+    /*font-family: "Work Sans", sans-serif;*/
 }
 
 aside.active {
     left: 0; /* Slides the aside into view */
+}
+aside h2 {
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Styling for the toggle button */
